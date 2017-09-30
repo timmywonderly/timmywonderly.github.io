@@ -3,10 +3,11 @@
 <head>
 <style>
 body {
-    background-color: #b3c6ff
-  
-   ;
+    background-color: #b3c6ff;
 }
+</style>
+</head>
+<body>
 
 h1 {
     color: white;
@@ -17,10 +18,5 @@ p {
     font-family: verdana;
     font-size: 20px;
 }
-</style>
-</head>
-<body>
-
-
 </body>
 </html>
