@@ -5,8 +5,16 @@ var bodyHeight = 160;
 var neckHeight = 70;
 var easing = 0.04;
 
+var cnv;
+
+function centerCanvas() {
+  var x = (windowWidth - width) / 2;
+  var y = (windowHeight - height) / 2;
+  cnv.position(x, y);
+}
+
 function setup() {
-    creatCanvas(720,480);
+   cnv = createCanvas(720,480);
     strokeWeight(2);
     ellipseMode(RADIUS);
 }
