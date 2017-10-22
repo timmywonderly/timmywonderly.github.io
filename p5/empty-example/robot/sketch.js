@@ -1,3 +1,10 @@
+var x = 60;
+var y = 440;
+var radius = 45;
+var bodyHeight = 160;
+var neckHeight = 70;
+var easing = 0.04;
+
 function setup() {
     creatCanvas(720,480);
     strokeWeight(2);
@@ -5,6 +12,19 @@ function setup() {
 }
 
 function draw() {
+    var targetX = mouseX;
+    x += (targetX - x) * easing;
+
+    if (mouseIsPressed) {
+        neckHeight = 10;
+        bodyHeight = 80;
+    }
+    else {
+        neckHeight = 70;
+        bodyHeight = 160;
+    }
+
+    var neckY = y - bodyHeight - neckHeight - radius;
     background(204);
 
     //neck
