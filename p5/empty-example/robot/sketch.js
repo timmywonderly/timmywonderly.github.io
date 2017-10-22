@@ -33,10 +33,10 @@ function draw() {
     }
 
     var neckY = y - bodyHeight - neckHeight - radius;
-    background(204);
+    
 
     //neck
-    stoke(102);  
+    background(204);  
     stroke(102);
     line(x + 12, y - bodyHeight, x + 12, neckY);
     line(x + 12, neckY, x - 18, neckY - 43);
