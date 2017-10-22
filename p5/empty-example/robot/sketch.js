@@ -35,7 +35,7 @@ function draw() {
     var neckY = y - bodyHeight - neckHeight - radius;
     
 
-    //neck
+
     background(204);  
     stroke(102);
     line(x + 12, y - bodyHeight, x + 12, neckY);
