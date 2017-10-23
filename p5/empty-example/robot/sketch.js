@@ -54,7 +54,7 @@ function draw() {
     fill(0);
     ellipse(x + 24, neckY - 6, 3, 3);
     fill(153);
-    ellipse(x + 35, neckY, 4, 3);
+    ellipse(x + 35, neckY + 20, 4, 3);
     ellipse(x , neckY - 20, 5, 3);
-    ellipse(x - 20, neckY - 30, 3, 3);
+    ellipse(x - 15, neckY + 30, 3, 3);
 }
