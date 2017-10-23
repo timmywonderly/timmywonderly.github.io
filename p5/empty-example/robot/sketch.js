@@ -25,11 +25,11 @@ function draw() {
 
     if (mouseIsPressed) {
         neckHeight = 10;
+        fill(130,0,0)
         bodyHeight = 80;
     }
     else {
         neckHeight = 70;
-        fill(random(200),0,0)
         bodyHeight = 160;
     }
 
@@ -44,9 +44,9 @@ function draw() {
     line(x + 12, neckY, x + 42, neckY - 99);
     line(x + 12, neckY, x + 78, neckY + 15);
     noStroke();
-    fill(102);
+    fill(0,0,random(200));
     ellipse(x, y - 33, 33, 33);
-    fill(0,random(200),0);
+    fill(0,(200),0);
     rect(x - 45, y - bodyHeight, 90, bodyHeight - 33);
     fill(0);
     ellipse(x + 12, neckY, radius, radius);
