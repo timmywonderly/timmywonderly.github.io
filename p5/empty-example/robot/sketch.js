@@ -4,6 +4,7 @@ var radius = 45;
 var bodyHeight = 160;
 var neckHeight = 70;
 var easing = 0.04;
+var body= rect(x - 45, y - bodyHeight, 90, bodyHeight - 33);
 
 var cnv;
 
@@ -47,7 +48,7 @@ function draw() {
     fill(0,0,random(200));
     ellipse(x, y - 33, 33, 33);
     fill(0,(200),0);
-    var body= rect(x - 45, y - bodyHeight, 90, bodyHeight - 33);
+    rect(x - 45, y - bodyHeight, 90, bodyHeight - 33);
     fill(0);
     ellipse(x + 12, neckY, radius, radius);
     fill(255);
