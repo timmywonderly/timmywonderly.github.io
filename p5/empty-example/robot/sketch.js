@@ -29,6 +29,7 @@ function draw() {
     }
     else {
         neckHeight = 70;
+        fill(random(200),0,0)
         bodyHeight = 160;
     }
 
@@ -45,7 +46,7 @@ function draw() {
     noStroke();
     fill(102);
     ellipse(x, y - 33, 33, 33);
-    fill(0);
+    fill(0,random(200),0);
     rect(x - 45, y - bodyHeight, 90, bodyHeight - 33);
     fill(0);
     ellipse(x + 12, neckY, radius, radius);

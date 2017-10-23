@@ -18,7 +18,7 @@ function windowResized() {
 
 function draw() {
   if(mouseIsPressed) {
-    fill(0,225,0);
+    fill(0,random(225),0);
   } else {
     fill(random(200),random(200),random(200));
   }
