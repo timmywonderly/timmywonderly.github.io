@@ -25,7 +25,7 @@ function draw() {
 
     if (mouseIsPressed) {
         neckHeight = 10;
-        fill bodyHeight(23,0,130)
+        fill bodyHeight(23,0,130);
         bodyHeight = 80;
     }
     else {
