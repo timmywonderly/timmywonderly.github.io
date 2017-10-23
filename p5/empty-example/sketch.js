@@ -22,6 +22,6 @@ function draw() {
   } else {
     fill(random(200),random(200),random(200));
   }
-  ellipse(mouseX,mouseY,80,80);
-  triangle(mouseX,mouseY,mouseX - 10,mouseY - 13,mouseX + 18,mouseY - 9)
+  triangle(mouseX,mouseY,mouseX - 50,mouseY - 40,mouseX + 45,mouseY - 50)
+  ellipse(mouseX,mouseY,40,80);
 }
