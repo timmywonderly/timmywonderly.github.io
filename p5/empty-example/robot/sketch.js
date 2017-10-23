@@ -25,7 +25,7 @@ function draw() {
 
     if (mouseIsPressed) {
         neckHeight = 10;
-        fill bodyHeight(23,0,130);
+        fill body(23,0,130);
         bodyHeight = 80;
     }
     else {
@@ -47,7 +47,7 @@ function draw() {
     fill(0,0,random(200));
     ellipse(x, y - 33, 33, 33);
     fill(0,(200),0);
-    rect(x - 45, y - bodyHeight, 90, bodyHeight - 33);
+    var body= rect(x - 45, y - bodyHeight, 90, bodyHeight - 33);
     fill(0);
     ellipse(x + 12, neckY, radius, radius);
     fill(255);
