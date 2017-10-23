@@ -4,7 +4,6 @@ var radius = 45;
 var bodyHeight = 160;
 var neckHeight = 70;
 var easing = 0.04;
-var body= rect(x - 45, y - bodyHeight, 90, bodyHeight - 33);
 
 var cnv;
 
@@ -26,7 +25,6 @@ function draw() {
 
     if (mouseIsPressed) {
         neckHeight = 10;
-        fill body(23,0,130);
         bodyHeight = 80;
     }
     else {
