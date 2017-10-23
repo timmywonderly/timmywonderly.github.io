@@ -23,4 +23,5 @@ function draw() {
     fill(random(200),random(200),random(200));
   }
   ellipse(mouseX,mouseY,80,80);
+  triangle(mouseX,mouseY,80,80,80)
 }
