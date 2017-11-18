@@ -69,7 +69,7 @@ def start():
        / \  |
             |
       =========''']
-    words = 'ant baboon badger bat bear beaver camel cat cobra cougar coyote crow deer dog donkey duck eagle ferret fox frog goat goose hawk lion lizard llama mole monkey moose mouse mule newt otter owl panda parrot pigeon python rabbit ram rat raven rhino salmon seal shark sheep skunk sloth snake spider stork swan tiger toad trout turkey turtle weasel whale wolf wombat zebra'.split()
+    words = 'ant antelope baboon badger bat bear bird beaver camel cat cobra cougar coyote crow deer dog donkey duck elk eagle ferret fox frog goat goose hawk lion lizard llama mole monkey moose mouse mule newt otter owl panda parrot pigeon python rabbit ram rat raven rhino salmon seal shark sheep shrike skunk sloth snake spider stork swan tiger toad trout turkey turtle viero weasel whale wolf wombat zebra'.split()
      
     def getRandomWord(wordList):
           wordIndex = random.randint(0, len(wordList) - 1)
@@ -162,8 +162,8 @@ def menu():
 :::::HANGIN' WITH THE MAN:::::
         ...hangman...
 
-Press a on keyboard to start the game.
-User Input: ''')
+Press a then enter on keyboard to start the game.
+ ''')
     if command == 'a':
         start()
 
