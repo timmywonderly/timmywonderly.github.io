@@ -14,7 +14,7 @@ function centerCanvas() {
 function setup() {
   cnv = createCanvas(1000, 400);
   centerCanvas();
-  background(0);
+  background(255);
 }
 
 function windowResized() {
