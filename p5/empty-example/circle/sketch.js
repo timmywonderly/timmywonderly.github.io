@@ -1,6 +1,6 @@
 var radius = 3;
 var angle = 0.0;
-var offset = 10;
+var offset = 30;
 var scalar = 2;
 var speed = 0.05;
 var cnv;
@@ -29,14 +29,14 @@ function draw() {
         radius ++;
         fill(0, 0, 144, random(50));
         translate(mouseX, mouseY); {
-            if (radius) = 400 {
+            if (radius) == 400 {
             radius --; }
         }
     } else {
         radius --;
         fill(0, 138, 0, random(50);
         translate(mouseX + 30, mouseY - 25); {
-            if (radius) = 400 {
+            if (radius) == 400 {
                 radius --; }
         }
     }
