@@ -30,7 +30,9 @@ function draw() {
         fill(0);
         translate(mouseX, mouseY);
     } else {
-        fill(random(255,1,1,25));
+        radius--;
+        fill(random(0,200,0,25));
+        translate(mouseX, mouseY);
     }
     ellipse(x, y, radius, radius); 
     angle += speed;}
