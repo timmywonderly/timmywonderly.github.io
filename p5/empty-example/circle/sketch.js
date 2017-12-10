@@ -25,7 +25,7 @@ function draw() {
     var x = offset + cos(angle) * scalar;
     var y = offset + sin(angle) * scalar;
     var d = dist(mouseX, mouseY, x, y);
-    if (d<radius) {
+    if (mouseIsPressed) {
         radius ++;
         fill(0);
     } else {
