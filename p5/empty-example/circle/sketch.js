@@ -1,7 +1,7 @@
-var radius = 6;
-var angle = 0.0;
+var radius = 3;
+var angle = 0.25;
 var offset = 30;
-var scalar = 15;
+var scalar = 3;
 var speed = 0.05;
 var cnv;
 
@@ -27,11 +27,11 @@ function draw() {
     var d = dist(mouseX, mouseY, x, y);
     if (mouseIsPressed) {
         radius ++;
-        fill(0);
+        fill(255);
         translate(mouseX, mouseY);
     } else {
         radius--;
-        fill(random(0,200,0,25));
+        fill(0,random(200),0,50);
         translate(mouseX, mouseY);
     }
     ellipse(x, y, radius, radius); 
