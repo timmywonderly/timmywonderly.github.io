@@ -1,10 +1,23 @@
 var x = 120;
 var y = 60;
 var radius = 12;
+var cnv;
 
-fuction setup() {
-    createCanvas(240,120);
-    ellipseMode(RADIUS);
+function centerCanvas() {
+  var x = (windowWidth - width) / 2;
+  var y = (windowHeight - height) / 2;
+  cnv.position(x, y);
+}
+
+function setup() {
+  cnv = createCanvas(1000, 400);
+  ellipseMode(RADIUS);
+  centerCanvas();
+  background(50, 200, 230);
+}
+
+function windowResized() {
+  centerCanvas();
 }
 
 function draw() {
