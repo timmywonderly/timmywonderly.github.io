@@ -31,7 +31,8 @@ function draw() {
     } else {
         fill(255);
     }
-    ellipse(x, y, radius, radius); }
+    ellipse(x, y, radius, radius); 
+    angle += speed;}
     {
     
         
