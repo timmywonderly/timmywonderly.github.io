@@ -1,4 +1,4 @@
-var radius = 12;
+var radius = 6;
 var angle = 0.0;
 var offset = 60;
 var scalar = 30;
@@ -13,7 +13,6 @@ function centerCanvas() {
 
 function setup() {
   cnv = createCanvas(1000, 400);
-  ellipseMode(RADIUS);
   centerCanvas();
   background(50, 200, 230);
 }
