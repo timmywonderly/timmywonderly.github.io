@@ -1,7 +1,7 @@
-var radius = 3;
+var radius = 12;
 var angle = 0.0;
-var offset = 30;
-var scalar = 2;
+var offset = 60;
+var scalar = 30;
 var speed = 0.05;
 var cnv;
 
