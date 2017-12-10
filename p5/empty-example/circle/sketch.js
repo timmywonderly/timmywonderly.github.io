@@ -27,14 +27,14 @@ function draw() {
     var d = dist(mouseX, mouseY, x, y);
     if (mouseIsPressed) {
         radius ++;
-        fill(0, 0, random(255), random(50));
+        fill(0, 0, 144, random(50));
         translate(mouseX, mouseY); {
             if (radius) = 400 {
             radius --; }
         }
     } else {
         radius --;
-        fill(0, random(200), 0, 50);
+        fill(0, 138, 0, random(50);
         translate(mouseX + 30, mouseY - 25); {
             if (radius) = 400 {
                 radius --; }
