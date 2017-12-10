@@ -27,7 +27,7 @@ function draw() {
     var d = dist(mouseX, mouseY, x, y);
     if (mouseIsPressed) {
         radius ++;
-        fill(0, 0, random(255, scale(1, 50))
+        fill(0, 0, random(255), scale(1, 50));
         translate(mouseX, mouseY);
     } else {
         radius --;
