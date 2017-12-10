@@ -1,8 +1,8 @@
 var radius = 3;
-var angle = 0.25;
+var angle = 0.0;
 var offset = 10;
 var scalar = 2;
-var speed = 0.005;
+var speed = 0.05;
 var cnv;
 
 function centerCanvas() {
@@ -28,11 +28,17 @@ function draw() {
     if (mouseIsPressed) {
         radius ++;
         fill(0, 0, random(255), random(50));
-        translate(mouseX, mouseY);
+        translate(mouseX, mouseY); {
+            if (radius) = 400 {
+            radius --; }
+        }
     } else {
         radius --;
         fill(0, random(200), 0, 50);
-        translate(mouseX + 30, mouseY - 25);
+        translate(mouseX + 30, mouseY - 25); {
+            if (radius) = 400 {
+                radius --; }
+        }
     }
     ellipse(x, y, radius, radius); 
     angle += speed;}
