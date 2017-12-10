@@ -29,5 +29,12 @@ function draw() {
     } else {
         fill(255);
     }
-    ellipse(x, y, radius, radius);
+    ellipse(x, y, radius, radius); }
+    {
+        if (mouseIsPressed){
+            fill(random(200,5,5,10));
+            ellipse(mouseX, mouseY, x, y, 25);
+        }
+    }
+
 }
