@@ -12,7 +12,7 @@ function centerCanvas() {
 }
 
 function setup() {
-  cnv = createCanvas(1000, 400);
+  cnv = createCanvas(windowWidth, windowHeight);
   centerCanvas();
   background(255);
 }
