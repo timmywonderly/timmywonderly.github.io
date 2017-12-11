@@ -27,11 +27,11 @@ function draw() {
     var d = dist(mouseX, mouseY, x, y);
     if (mouseIsPressed) {
         radius ++;
-        fill(0, 0, 144, random(50));
+        fill(148, 148, 184, random(50));
         translate(mouseX, mouseY); 
     } else {
         radius --;
-        fill(0, 138, 0, random(50));
+        fill(255 ,102, 255, random(50));
         translate(mouseX + 30, mouseY - 25); 
     }
     ellipse(x, y, radius, radius); 
